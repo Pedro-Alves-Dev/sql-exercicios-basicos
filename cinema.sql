@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS distribution_companies (
 );
 
 CREATE TABLE movies(
-	movie_id INT(10) NOT NULL AUTO_INCREMENT,
+    movie_id INT(10) NOT NULL AUTO_INCREMENT,
     movie_title VARCHAR(100) NOT NULL,
     imdb_rating DECIMAL(10, 2) NOT NULL,
     year_released INT(10),

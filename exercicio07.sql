@@ -6,7 +6,7 @@ SELECT
 FROM movies
 GROUP BY movie_language;
 
--- Another way
+-- Outra forma
 /*SELECT COUNT(movie_id), movie_language
 FROM movies
 GROUP BY movie_language;*/

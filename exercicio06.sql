@@ -2,9 +2,9 @@
 classificá-los em ordem crescente (ASC/DESC)*/
 
 SELECT 
- movie_title,
- imdb_rating,
- year_released
+	movie_title,
+	imdb_rating,
+	year_released
 FROM movies
 WHERE year_released > 1991
 ORDER BY year_released ASC;
